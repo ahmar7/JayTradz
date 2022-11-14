@@ -26,9 +26,90 @@ ul li {
 
 .navbar-main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 70px;
+    padding: 0 40px;
 
-    background: #ff5656;
+    background: #ffffff;
+}
+
+.right-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bar ul li a {
+    /* HOME */
+
+
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+
+
+
+    /* s1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+
+
+    color: #121127;
+
+}
+
+.active {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    color: #41BCD8 !important;
+
+}
+
+.right-bar ul li {
+    margin: 0 15px;
+}
+
+.sign-btn button {
+    width: 105px;
+    height: 44px;
+
+
+    border: none;
+    outline: none;
+    background: #41BCD8;
+    border-radius: 6px;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.underline {
+    position: absolute;
+    width: 20px;
+
+    display: none;
+    margin-top: 23px;
+    height: 3px;
+    top: 0px;
+    left: 35%;
+    background: #41BCD8;
+    color: #41BCD8;
+}
+
+.active .underline {
+    display: block;
 }

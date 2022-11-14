@@ -12,7 +12,37 @@ const Navbar = () => {
         <div className="right-bar">
           <ul>
             <li>
-              <Link>Home</Link>
+              <Link className="active">
+                Home
+                <span class="underline"></span>
+              </Link>
+            </li>
+            <li>
+              <Link>
+                Our Program
+                <span class="underline"></span>
+              </Link>
+            </li>
+            <li>
+              <Link>Mission</Link>
+            </li>
+            <li>
+              <Link>Memberships</Link>
+            </li>
+            <li>
+              <Link>Rewards</Link>
+            </li>
+            <li>
+              <Link>Benefits </Link>
+            </li>
+            <li>
+              <Link>FAQ</Link>
+            </li>
+            <li>
+              <Link>Brochure</Link>
+            </li>
+            <li className="sign-btn">
+              <button>Sign in</button>
             </li>
           </ul>
         </div>

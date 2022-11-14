@@ -1,0 +1,97 @@
+.detail-section {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.upper-left {
+    position: absolute;
+    left: 0;
+    top: -110px;
+    z-index: -999;
+
+}
+
+.bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: -110px;
+    z-index: -999;
+
+}
+
+.upper-right img, .upper-left img {
+
+    /* width: 180px;
+    height: 200px; */
+}
+
+.upper-right {
+    position: absolute;
+    right: 0;
+    top: -110px;
+    z-index: -999;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: -110px;
+    z-index: -999;
+}
+
+.detail-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+
+    flex-direction: row;
+
+}
+
+.detail-right h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+
+    text-transform: uppercase;
+
+    color: #121127;
+}
+
+.detail-right p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+
+    color: rgba(18, 17, 39, 0.72);
+}
+
+.detail-left {
+    width: 30%;
+}
+
+.detail-left img {
+    width: 100%;
+}
+
+.detail-right {
+    width: 40%;
+    margin: 0 50px;
+}
+
+.anti {
+    flex-direction: row-reverse !important;
+}
+
+.anti .detail-left {
+    margin: 0 50px;
+}
+
+.anti .detail-right {
+    margin: 0;
+}
