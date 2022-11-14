@@ -1,7 +1,7 @@
 .detail-section {
     position: relative;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .upper-left {
@@ -15,7 +15,7 @@
 .bottom-left {
     position: absolute;
     left: 0;
-    bottom: -110px;
+    bottom: -115px;
     z-index: -999;
 
 }
@@ -36,7 +36,7 @@
 .bottom-right {
     position: absolute;
     right: 0;
-    bottom: -110px;
+    bottom: -115px;
     z-index: -999;
 }
 
@@ -94,4 +94,24 @@
 
 .anti .detail-right {
     margin: 0;
+}
+
+.detail-list {
+    margin-left: 20px;
+    list-style-image: url('../../../assets/img/Liststyle.png')
+}
+
+.detail-list li {
+
+    margin: 12px 0;
+
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: rgba(18, 17, 39, 0.72);
+}
+
+.no-mar {
+    /* margin-top: 0 !important; */
 }
