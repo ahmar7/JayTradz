@@ -8,6 +8,15 @@ import Detail4 from "../../assets/img/Detail4.png";
 import Detail5 from "../../assets/img/Detail5.png";
 import Upperdots from "../../assets/img/Upperdots.png";
 import Belowdots from "../../assets/img/Belowdots.png";
+import Rectangle1 from "../../assets/img/Rectangle1.png";
+import Rectangle2 from "../../assets/img/Rectangle2.png";
+import Rectangle3 from "../../assets/img/Rectangle3.png";
+import Rectangle4 from "../../assets/img/Rectangle4.png";
+import Rectangle5 from "../../assets/img/Rectangle5.png";
+import Rectangle6 from "../../assets/img/Rectangle6.png";
+import Star from "../../assets/img/star.png";
+import LeftReward from "../../assets/img/left-reward.png";
+import RightReward from "../../assets/img/rewards-right.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -19,5 +28,15 @@ export {
   Detail3,
   Detail4,
   Detail5,
-  Upperdots,Belowdots
+  Upperdots,
+  Belowdots,
+  Rectangle1,
+  Rectangle2,
+  Rectangle3,
+  Rectangle4,
+  Rectangle5,
+  Rectangle6,
+  Star,
+  LeftReward,
+  RightReward,
 };

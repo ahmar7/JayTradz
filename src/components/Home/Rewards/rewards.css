@@ -1,0 +1,28 @@
+.rewards-section {
+    position: relative;
+    padding: 100px 0 40px 0;
+    background: rgba(18, 17, 39, 0.04);
+
+}
+
+.left-reward {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.right-reward {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-reward img {
+    width: 100%;
+}
+
+.rewards-section .section-detail {
+    margin-top: 20px !important;
+    width: 920px;
+    margin: 0 auto;
+}
