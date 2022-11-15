@@ -17,6 +17,8 @@ import Rectangle6 from "../../assets/img/Rectangle6.png";
 import Star from "../../assets/img/star.png";
 import LeftReward from "../../assets/img/left-reward.png";
 import RightReward from "../../assets/img/rewards-right.png";
+import TickSquare from "../../assets/img/tick-square.png";
+import ArrowDown from "../../assets/img/arrow-down.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -39,4 +41,6 @@ export {
   Star,
   LeftReward,
   RightReward,
+  TickSquare,
+  ArrowDown,
 };

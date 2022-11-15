@@ -1,0 +1,52 @@
+.perks-section {
+
+    padding: 0 40px;
+    /* s1 */
+    min-height: 80vh;
+
+    background: #41BCD8;
+    mix-blend-mode: normal;
+}
+
+.perks-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perks-left {
+    width: 40%;
+}
+
+.perks-left h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.perks-left p {
+    font-style: normal;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.perks-right {
+    width: 50%;
+}
+
+.slider-card {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.04);
+    border-radius: 14px;
+    height: 100px;
+    width: 90%;
+}

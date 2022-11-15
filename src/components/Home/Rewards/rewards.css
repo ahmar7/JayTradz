@@ -1,6 +1,6 @@
 .rewards-section {
     position: relative;
-    padding: 100px 0 40px 0;
+    padding: 100px 0 100px 0;
     background: rgba(18, 17, 39, 0.04);
 
 }
@@ -25,4 +25,39 @@
     margin-top: 20px !important;
     width: 920px;
     margin: 0 auto;
+}
+
+.sliders {
+    margin-top: 40px;
+}
+
+.section-slider {
+    cursor: pointer;
+
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;
+    /* width: 60vw; */
+    height: 55px;
+    padding: 0 30px;
+    width: 856px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-head {
+    display: flex;
+    align-items: center;
+}
+
+.left-head h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: center;
+    color: #121127;
 }
