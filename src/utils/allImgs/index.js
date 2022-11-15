@@ -24,6 +24,8 @@ import Discord from "../../assets/img/Discord.png";
 import VideoHorizontal from "../../assets/img/Videohorizontal.png";
 import Buycrypto from "../../assets/img/Buycrypto.png";
 import Affiliate from "../../assets/img/Affiliate.png";
+import LeftPiece from "../../assets/img/leftpiece.png";
+import RightPiece from "../../assets/img/rightpiece.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -53,4 +55,6 @@ export {
   Discord,
   Buycrypto,
   Affiliate,
+  LeftPiece,
+  RightPiece,
 };

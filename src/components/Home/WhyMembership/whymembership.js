@@ -1,6 +1,15 @@
 import React, { useState } from "react";
-import { Affiliate, ArrowDown, TickSquare } from "../../../utils/allImgs";
+import {
+  Affiliate,
+  ArrowDown,
+  LeftPiece,
+  RightPiece,
+  TickSquare,
+} from "../../../utils/allImgs";
 import "./membership.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Whymembership = () => {
   const [slide1, setSlide1] = useState(false);
   const [slide2, setSlide2] = useState(false);
@@ -40,6 +49,43 @@ const Whymembership = () => {
     } else {
       setSlide5(true);
     }
+  };
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    speed: 500,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
   return (
     <div className="rewards-section">
@@ -160,7 +206,7 @@ const Whymembership = () => {
       </div>
       <div className="affiliate-area">
         <h1 className="section-heading">our affiliates</h1>
-        <div className="affiliate-img">
+        {/* <div className="affiliate-img">
           <img src={Affiliate} alt="" />
           <img src={Affiliate} alt="" />
           <img src={Affiliate} alt="" />
@@ -168,6 +214,42 @@ const Whymembership = () => {
           <img src={Affiliate} alt="" />
           <img src={Affiliate} alt="" />
           <img src={Affiliate} alt="" />
+        </div> */}
+        <Slider {...settings}>
+          <div>
+            <div className="affiliation-slider ">
+              <a href="https://vegaslucknft.com/15612250" target="_blank">
+                <img className="affiliate-img" src={Affiliate} alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="affiliation-slider">
+              <a href="https://vegaslucknft.com/15612250" target="_blank">
+                <img className="affiliate-img" src={Affiliate} alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="affiliation-slider">
+              <a href="https://vegaslucknft.com/15612250" target="_blank">
+                <img className="affiliate-img" src={Affiliate} alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="affiliation-slider">
+              <a href="https://vegaslucknft.com/15612250" target="_blank">
+                <img className="affiliate-img" src={Affiliate} alt="" />
+              </a>
+            </div>
+          </div>
+        </Slider>
+        <div className="left-piece">
+          <img src={LeftPiece} alt="" />
+        </div>
+        <div className="right-piece">
+          <img src={RightPiece} alt="" />
         </div>
       </div>
     </div>

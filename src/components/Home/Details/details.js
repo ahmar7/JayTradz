@@ -8,6 +8,7 @@ import {
   LeftPolly,
   RightPolly,
 } from "../../../utils/allImgs";
+
 import "./details.css";
 const Details = () => {
   return (

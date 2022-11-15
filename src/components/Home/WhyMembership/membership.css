@@ -1,5 +1,7 @@
 .affiliate-area {
-    margin-top: 80px;
+    margin-top: 80px !important;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .why .section-slider {
@@ -11,8 +13,25 @@
 }
 
 .affiliate-img {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin-top: 30px !important;
+    width: 120px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+.affiliate-area .slick-dots li button, .affiliate-area .slick-dots li.slick-active button:before, .affiliate-area .slick-dots li button:before {
+    color: rgb(0, 0, 0) !important;
+    /* opacity: 1 !important; */
+}
+
+.left-piece {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.right-piece {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
