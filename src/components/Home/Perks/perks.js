@@ -73,20 +73,20 @@ const Perks = () => {
               </div>
               <div className="slider-card">
                 <div className="float-ico">
-                  <img src={Discord} alt="" />
+                  <img src={VideoHorizontal} alt="" />
                 </div>
                 <div className="card-text">
-                  <p>Resource Center & Educational Packs</p>
+                  <p>Access to Standard Videos & Podcast Content</p>
                 </div>
               </div>
             </div>
             <div>
               <div className="slider-card">
                 <div className="float-ico">
-                  <img src={VideoHorizontal} alt="" />
+                  <img src={Discord} alt="" />
                 </div>
                 <div className="card-text">
-                  <p>Resource Center & Educational Packs</p>
+                  <p>Invitation to Discord Community</p>
                 </div>
               </div>
               <div className="slider-card">
@@ -94,7 +94,7 @@ const Perks = () => {
                   <img src={Buycrypto} alt="" />
                 </div>
                 <div className="card-text">
-                  <p>Resource Center & Educational Packs</p>
+                  <p>Exclusive Crypto-Trading Media Content</p>
                 </div>
               </div>
             </div>
@@ -109,20 +109,20 @@ const Perks = () => {
               </div>
               <div className="slider-card">
                 <div className="float-ico">
-                  <img src={Discord} alt="" />
+                  <img src={VideoHorizontal} alt="" />
                 </div>
                 <div className="card-text">
-                  <p>Resource Center & Educational Packs</p>
+                  <p>Access to Standard Videos & Podcast Content</p>
                 </div>
               </div>
             </div>
             <div>
               <div className="slider-card">
                 <div className="float-ico">
-                  <img src={VideoHorizontal} alt="" />
+                  <img src={Discord} alt="" />
                 </div>
                 <div className="card-text">
-                  <p>Resource Center & Educational Packs</p>
+                  <p>Invitation to Discord Community</p>
                 </div>
               </div>
               <div className="slider-card">
@@ -130,7 +130,7 @@ const Perks = () => {
                   <img src={Buycrypto} alt="" />
                 </div>
                 <div className="card-text">
-                  <p>Resource Center & Educational Packs</p>
+                  <p>Exclusive Crypto-Trading Media Content</p>
                 </div>
               </div>
             </div>
