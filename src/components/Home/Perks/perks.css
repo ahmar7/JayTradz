@@ -1,11 +1,11 @@
 .perks-section {
-
+    flex-direction: column;
     padding: 0 40px;
-    /* s1 */
     min-height: 80vh;
-
+    display: flex;
     background: #41BCD8;
     mix-blend-mode: normal;
+    justify-content: center;
 }
 
 .perks-flex {
@@ -43,10 +43,56 @@
 }
 
 .slider-card {
+    position: relative;
+    margin: 50px 0;
     background: #FFFFFF;
     border: 2px solid rgba(0, 0, 0, 0.02);
     box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.04);
     border-radius: 14px;
-    height: 100px;
+    /* height: 150px; */
+    padding: 30px 30px 30px 30px;
     width: 90%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.card-text p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #383751;
+}
+
+.float-ico img {
+    width: 40px;
+}
+
+.float-ico {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+
+    margin-top: -35px;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    /* padding: 10px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 85px;
+
+}
+
+.slick-dots li button, .slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color: white !important;
+    /* opacity: 1 !important; */
 }

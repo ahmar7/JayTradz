@@ -19,6 +19,10 @@ import LeftReward from "../../assets/img/left-reward.png";
 import RightReward from "../../assets/img/rewards-right.png";
 import TickSquare from "../../assets/img/tick-square.png";
 import ArrowDown from "../../assets/img/arrow-down.png";
+import Dropbox from "../../assets/img/Dropbox.png";
+import Discord from "../../assets/img/Discord.png";
+import VideoHorizontal from "../../assets/img/Videohorizontal.png";
+import Buycrypto from "../../assets/img/Buycrypto.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -43,4 +47,8 @@ export {
   RightReward,
   TickSquare,
   ArrowDown,
+  Dropbox,
+  VideoHorizontal,
+  Discord,
+  Buycrypto,
 };

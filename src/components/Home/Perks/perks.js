@@ -3,6 +3,12 @@ import "./perks.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {
+  Buycrypto,
+  Discord,
+  Dropbox,
+  VideoHorizontal,
+} from "../../../utils/allImgs";
 const Perks = () => {
   var settings = {
     dots: true,
@@ -10,7 +16,7 @@ const Perks = () => {
     speed: 500,
     autoplay: true,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     arrows: false,
     speed: 500,
     initialSlide: 0,
@@ -57,10 +63,76 @@ const Perks = () => {
         <div className="perks-right">
           <Slider {...settings}>
             <div>
-              <div className="slider-card"></div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={Dropbox} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={Discord} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
             </div>
             <div>
-              <div className="slider-card"></div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={VideoHorizontal} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={Buycrypto} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={Dropbox} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={Discord} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={VideoHorizontal} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
+              <div className="slider-card">
+                <div className="float-ico">
+                  <img src={Buycrypto} alt="" />
+                </div>
+                <div className="card-text">
+                  <p>Resource Center & Educational Packs</p>
+                </div>
+              </div>
             </div>
           </Slider>
         </div>
