@@ -5,6 +5,7 @@ import Membership from "../components/Home/Membership/membership";
 import Mission from "../components/Home/Mission/mission";
 import Perks from "../components/Home/Perks/perks";
 import Rewards from "../components/Home/Rewards/rewards";
+import Whymembership from "../components/Home/WhyMembership/whymembership";
 import Navbar from "../layout/NavBar/navbar";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Membership />
       <Rewards />
       <Perks />
+      <Whymembership />
       <br />
       <br />
       <br />

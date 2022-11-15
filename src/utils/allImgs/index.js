@@ -23,6 +23,7 @@ import Dropbox from "../../assets/img/Dropbox.png";
 import Discord from "../../assets/img/Discord.png";
 import VideoHorizontal from "../../assets/img/Videohorizontal.png";
 import Buycrypto from "../../assets/img/Buycrypto.png";
+import Affiliate from "../../assets/img/Affiliate.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -51,4 +52,5 @@ export {
   VideoHorizontal,
   Discord,
   Buycrypto,
+  Affiliate,
 };

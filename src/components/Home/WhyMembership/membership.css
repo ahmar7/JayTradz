@@ -1,0 +1,18 @@
+.affiliate-area {
+    margin-top: 80px;
+}
+
+.why .section-slider {
+
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.04);
+
+}
+
+.affiliate-img {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
