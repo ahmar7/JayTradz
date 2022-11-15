@@ -39,6 +39,7 @@ const Details = () => {
             will help you know all there is to know about the future...which is
             crypto.
           </p>
+          <div className="header-btn"></div>
         </div>
       </div>
       <div className="detail-flex anti">
@@ -87,7 +88,7 @@ const Details = () => {
           <img src={Detail2} alt="" />
         </div>
         <div className="detail-right">
-          <h1>3. How to Paper Trade Crypto</h1>
+          <h1>3. How to Trade Crypto</h1>
           <ul className="detail-list">
             <li className="no-mar">
               Learn what crypto trading involves & the concept of risk.
@@ -136,22 +137,16 @@ const Details = () => {
           <img src={Detail5} alt="" />
         </div>
         <div className="detail-right">
-          <h1>3. How to Paper Trade Crypto</h1>
+          <h1>5. How to Build Crypto</h1>
           <ul className="detail-list">
             <li className="no-mar">
-              Learn what crypto trading involves & the concept of risk.
-              Understand the difference between Technical & Fundamental Analysis
-              and the level of commitment required.
+              Learn what Bitcoin and Ethereum architecture.
             </li>
 
             <li>
-              Learn how crypto prices are formed, how exchanges work, the idea
-              of price discovery & the influence of volatility.
+              Learn the roles that Bitcoin Full Nodes and Bitcoin Miners play.
             </li>
-            <li>
-              Understand the process of placing your first trade, and the
-              trade-off between simplicity, precision and commission.
-            </li>
+
             <li>And more...</li>
           </ul>
         </div>

@@ -34,17 +34,55 @@
 .section-slider {
     cursor: pointer;
 
+
+    height: 55px;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-slide {
+    cursor: pointer;
+
     background: #FFFFFF;
     border: 1px solid #E9E9E9;
     border-radius: 8px;
     /* width: 60vw; */
+
     height: 55px;
-    padding: 0 30px;
     width: 856px;
     margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+}
+
+.no-border {
+    /* border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0 !important; */
+    height: auto;
+
+}
+
+.slider-para {
+
+    border-top: 1px solid #E9E9E9;
+
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+    /* border: 1px solid #E9E9E9; */
+    margin-top: 1px;
+    padding: 20px 30px;
+    /* border-top: none; */
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.hide-it {
+    display: none;
 }
 
 .left-head {
