@@ -52,7 +52,7 @@
 
     width: 50vw;
     margin: 0 auto;
-    margin-top: 30px !important;
+    margin-top: 30px;
 
     /* height: 50px; */
     background: #41BCD8;
@@ -227,4 +227,170 @@
     text-align: left;
     bottom: 0;
     margin-bottom: 150px;
+}
+
+@media (max-width:1120px) {
+    .point-boxes {
+        flex-wrap: wrap;
+        margin-top: 20px
+    }
+
+    .indiv-box {
+        width: 33%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .indiv-box h3 {
+        margin-top: 9px;
+    }
+
+    .wallet-address {
+        width: 80vw;
+    }
+
+    .pt-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .point-box {
+        background: #FFFFFF;
+        border: 1px solid #6C6B80;
+        border-radius: 8px;
+        padding: 30px 10px;
+        width: 280px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .point-number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .point-box p {
+
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .wallet-address {
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .wallet-instruction {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .point-box {
+
+        padding: 20px 10px;
+        width: 250px;
+        margin-top: 0px;
+    }
+
+    .indiv-box {
+        width: 40%;
+    }
+
+    .horizontal-dots, .vertical-dots {
+        display: none;
+    }
+
+    .bx-bg {
+
+        padding: 30px 0;
+    }
+
+    .bx-bg h2 {
+        font-size: 30px;
+    }
+
+    .bx h3 {
+        margin-top: 15px;
+    }
+
+    .bx {
+        width: 250px;
+    }
+}
+
+@media (max-width:600px) {
+    .pt-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .wallet-address p {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .wallet-address {
+        padding: 10px 5px;
+        overflow: auto;
+    }
+
+    .wallet-instruction {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .point-box p {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .bx h3 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .indiv-box {
+        width: 100%;
+    }
+
+    .border-box {
+        height: 150px;
+    }
+
+    .indiv-box h3 {
+        font-size: 18px;
+    }
+
+    .wallet-address p {
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .suggestion-line p {
+        font-size: 16px;
+    }
+
+    .copyBtn {
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+
+    .background-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bx {
+        margin: 20px 0;
+    }
+
+    .bx h3 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
 }

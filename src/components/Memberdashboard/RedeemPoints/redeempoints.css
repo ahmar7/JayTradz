@@ -174,3 +174,114 @@
     padding: 18px 51px !important;
 
 }
+
+@media (max-width:1200px) {
+    .inner-redeempoint {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .right-heading {
+        display: flex;
+    }
+}
+
+@media (max-width:900px) {
+    .right-heading {
+        flex-wrap: wrap;
+
+    }
+
+    .price-btn.gray.redeem-btn {
+        margin: 10px;
+        /* margin-top: 10px !important; */
+    }
+
+    .price-btn {
+        margin-top: 10px;
+        width: 118px;
+        margin-bottom: 10px;
+    }
+
+    .right-heading {
+        justify-content: right;
+    }
+
+    .instr {
+        margin: 15px 0;
+    }
+
+
+    .inner-redeempoint {
+        width: auto;
+        padding: 0 40px;
+    }
+
+    .refrral-block {
+        padding: 30px 20px;
+    }
+
+    .ref-btn {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .refrral-block {
+        padding: 20px 15px;
+    }
+
+    .inner-redeempoint {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .redeempoints-section {
+        padding: 40px 0 40px 0;
+    }
+
+    .ref-btn {
+        overflow: auto;
+    }
+}
+
+@media (max-width:550px) {
+    .refrral-heading {
+        flex-direction: column;
+    }
+
+    .right-heading {
+        justify-content: center;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .ref-btn {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .price-btn {
+        font-size: 13px;
+        width: 110px;
+    }
+
+    .ref-btn {
+        font-size: 16px;
+    }
+
+    .right-heading input {
+        width: 110px;
+    }
+
+    .confirm-msg h3 {
+        font-size: 18px;
+    }
+
+
+    .confirm-msg {
+        margin: 15px 0;
+
+    }
+}
