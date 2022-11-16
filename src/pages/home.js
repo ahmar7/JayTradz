@@ -6,6 +6,7 @@ import Mission from "../components/Home/Mission/mission";
 import Perks from "../components/Home/Perks/perks";
 import Rewards from "../components/Home/Rewards/rewards";
 import Whymembership from "../components/Home/WhyMembership/whymembership";
+import Footer from "../layout/Footer/footer";
 import Navbar from "../layout/NavBar/navbar";
 
 const Home = () => {
@@ -19,22 +20,7 @@ const Home = () => {
       <Rewards />
       <Perks />
       <Whymembership />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      alasaxs
+      <Footer />
     </div>
   );
 };

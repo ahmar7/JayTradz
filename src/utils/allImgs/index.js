@@ -26,14 +26,22 @@ import Buycrypto from "../../assets/img/Buycrypto.png";
 import Affiliate from "../../assets/img/Affiliate.png";
 import LeftPiece from "../../assets/img/leftpiece.png";
 import RightPiece from "../../assets/img/rightpiece.png";
+import LocationIco from "../../assets/img/location.png";
+import SmsIco from "../../assets/img/sms.png";
+import DiscordFooter from "../../assets/img/discord-footer.png";
+import TwitterFooter from "../../assets/img/twitter-footer.png";
+import fbFooter from "../../assets/img/fb-footer.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
+  DiscordFooter,
   Logo,
   RightPolly,
+  TwitterFooter,
   LeftPolly,
   Detail1,
   Detail2,
+  fbFooter,
   Detail3,
   Detail4,
   Detail5,
@@ -57,4 +65,6 @@ export {
   Affiliate,
   LeftPiece,
   RightPiece,
+  LocationIco,
+  SmsIco,
 };
