@@ -31,6 +31,7 @@ import SmsIco from "../../assets/img/sms.png";
 import DiscordFooter from "../../assets/img/discord-footer.png";
 import TwitterFooter from "../../assets/img/twitter-footer.png";
 import fbFooter from "../../assets/img/fb-footer.png";
+import Headerdiscord from "../../assets/img/Headerdiscord.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -67,4 +68,5 @@ export {
   RightPiece,
   LocationIco,
   SmsIco,
+  Headerdiscord,
 };

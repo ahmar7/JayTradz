@@ -1,4 +1,5 @@
 import React from "react";
+import { Headerdiscord } from "../../../utils/allImgs";
 import "./header.css";
 const Header = () => {
   return (
@@ -18,6 +19,12 @@ const Header = () => {
                 expanding our standard memberships and presenting a program.
               </span>
             </p>
+            <div className="header-discord">
+              <h3>Need help with Getting Started, join...</h3>
+              <a href="">
+                <img src={Headerdiscord} alt="" /> DISCORD
+              </a>
+            </div>
           </div>
         </div>
       </div>
