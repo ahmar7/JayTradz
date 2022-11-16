@@ -26,13 +26,13 @@ const Footer = () => {
             <span>info@jaytradz.com </span>
           </div>
           <div className="social-icons">
-            <a href="">
+            <Link to="/admindashboard">
               <img src={TwitterFooter} alt="" />
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/Memberdashboard">
               <img src={fbFooter} alt="" />
-            </a>
-            <a href="">
+            </Link>
+            <a target="_blank" href="https://discord.gg/Rh6j6uE3qB">
               <img src={DiscordFooter} alt="" />
             </a>
           </div>

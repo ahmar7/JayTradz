@@ -14,7 +14,7 @@ const MemberDashboard = () => {
       <Rewardspoint />
       <RedeemPoints />
       <Transactionhistory />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
