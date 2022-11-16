@@ -4,6 +4,7 @@ import {
   Discord,
   DiscordFooter,
   fbFooter,
+  FooterLogo,
   LocationIco,
   Logo,
   SmsIco,
@@ -15,7 +16,7 @@ const Footer = () => {
     <div className="footer-section">
       <div className="footer-outer">
         <div className="footer-logo">
-          <img src={Logo} alt="" />
+          <img className="footer-img" src={FooterLogo} alt="" />
           <div className="loction-line">
             <img src={LocationIco} alt="" />
             <span>68 Circular Road, #02-01 Singapore 049422</span>
@@ -36,72 +37,84 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="footer-logo">
+        <div className="footer-logo text-center">
           <div className="loction-line">
             <ul>
               <li className="navigation">
                 <h2>Navigation</h2>
               </li>
               <li>
-                <Link>Home</Link>
+                <a href="#">Home</a>
               </li>
               <li>
-                <Link>Our Program</Link>
+                <a href="#program">Our Program</a>
               </li>
               <li>
-                <Link>Mission</Link>
+                <a href="#mission">Mission</a>
               </li>
               <li>
-                <Link>Memberships</Link>
+                <a href="#membership">Memberships</a>
+              </li>
+              <li className="mbl-only">
+                <a href="#rewards">Rewards</a>
+              </li>
+              <li className="mbl-only">
+                <a href="#benefits">Benefits </a>
+              </li>
+              <li className="mbl-only">
+                <a href="">FAQ</a>
+              </li>
+              <li className="mbl-only">
+                <a href="../../assets/doc/JayTradz-Brochure.pdf">Brochure</a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="footer-logo">
+        <div className="footer-logo text-center desk-only">
           <div className="loction-line">
             <ul>
               <li className="navigation">
                 <h2>Navigation</h2>
               </li>
               <li>
-                <Link>Rewards</Link>
+                <a href="#rewards">Rewards</a>
               </li>
               <li>
-                <Link>Benefits </Link>
+                <a href="#benefits">Benefits </a>
               </li>
               <li>
-                <Link>FAQ</Link>
+                <a href="">FAQ</a>
               </li>
               <li>
-                <Link>Brochure</Link>
+                <a href="../../assets/doc/JayTradz-Brochure.pdf">Brochure</a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="footer-logo">
+        <div className="footer-logo text-center">
           <div className="loction-line">
             <ul>
               <li className="navigation">
                 <h2>Legal</h2>
               </li>
               <li>
-                <Link>Disclaimer</Link>
+                <a href="">Disclaimer</a>
               </li>
               <li>
-                <Link>Privacy Policy</Link>
+                <a href="">Privacy Policy</a>
               </li>
               <li>
-                <Link>Terms & Conditions</Link>
+                <a href="">Terms & Conditions</a>
               </li>
               <li>
-                <Link>AML & KYC</Link>
+                <a href="">AML & KYC</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="copyright">
-        <p>Copyright © 2020. JayTradz.com</p>
+        <p>Copyright © 2023. JayTradz.com</p>
       </div>
     </div>
   );

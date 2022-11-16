@@ -28,6 +28,7 @@
 .left-piece {
     position: absolute;
     left: 0;
+    text-align: left;
     bottom: 0;
 }
 
@@ -35,4 +36,29 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    text-align: right;
+}
+
+.right-piece img,
+.left-piece img {
+    width: 90%;
+}
+
+@media (max-width:1000px) {
+
+    .right-piece img,
+    .left-piece img {
+        width: 130px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .section-heading {
+        font-size: 28px;
+    }
+
+    .right-piece img, .left-piece img {
+        width: 100px;
+    }
 }

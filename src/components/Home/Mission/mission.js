@@ -3,7 +3,7 @@ import { Belowdots, Upperdots } from "../../../utils/allImgs";
 import "./mission.css";
 const Mission = () => {
   return (
-    <div className="mission-section">
+    <div className="mission-section" id="mission">
       <div className="mission-bg">
         <div className="overlay-content">
           <div className="upper-dots">

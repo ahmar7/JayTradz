@@ -5,6 +5,7 @@ import {
   LeftPiece,
   RightPiece,
   TickSquare,
+  Vpn,
 } from "../../../utils/allImgs";
 import "./membership.css";
 import Slider from "react-slick";
@@ -64,8 +65,8 @@ const Whymembership = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -74,15 +75,15 @@ const Whymembership = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -206,20 +207,12 @@ const Whymembership = () => {
       </div>
       <div className="affiliate-area">
         <h1 className="section-heading">our affiliates</h1>
-        {/* <div className="affiliate-img">
-          <img src={Affiliate} alt="" />
-          <img src={Affiliate} alt="" />
-          <img src={Affiliate} alt="" />
-          <img src={Affiliate} alt="" />
-          <img src={Affiliate} alt="" />
-          <img src={Affiliate} alt="" />
-          <img src={Affiliate} alt="" />
-        </div> */}
+
         <Slider {...settings}>
           <div>
             <div className="affiliation-slider ">
-              <a href="https://vegaslucknft.com/15612250" target="_blank">
-                <img className="affiliate-img" src={Affiliate} alt="" />
+              <a href="https://www.expressvpn.com/" target="_blank">
+                <img className="affiliate-img" src={Vpn} alt="" />
               </a>
             </div>
           </div>

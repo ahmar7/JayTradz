@@ -109,3 +109,65 @@
     background: #41BCD8;
     border-radius: 6px;
 }
+
+@media (max-width:768px) {
+    .head {
+        margin-top: 10px;
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: initial;
+
+        color: #FFFFFF;
+    }
+
+    .header-detail .blk, .head .blk,
+    .head .clr {
+        display: inline;
+    }
+
+    .header-discord {
+
+        margin-top: 20px;
+    }
+
+    .header-discord a {
+
+        font-weight: 400;
+
+        font-size: 15px;
+
+        padding: 13px 18px;
+
+        border-radius: 6px;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .inner-bg {
+        padding: 0 20px;
+    }
+
+    .header-discord h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+    }
+
+    .header-bg {
+        height: 92vh;
+
+
+    }
+
+    .inner-bg {
+        height: 92vh;
+
+
+    }
+
+}

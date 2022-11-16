@@ -1,9 +1,9 @@
 import React from "react";
-import Details from "../components/Home/Details/details";
+import Details from "../components/Home/Program/program";
 import Header from "../components/Home/Header/header";
 import Membership from "../components/Home/Membership/membership";
 import Mission from "../components/Home/Mission/mission";
-import Perks from "../components/Home/Perks/perks";
+import Benefits from "../components/Home/Benefits/benefits";
 import Rewards from "../components/Home/Rewards/rewards";
 import Whymembership from "../components/Home/WhyMembership/whymembership";
 import Footer from "../layout/Footer/footer";
@@ -18,7 +18,7 @@ const Home = () => {
       <Mission />
       <Membership />
       <Rewards />
-      <Perks />
+      <Benefits />
       <Whymembership />
       <Footer />
     </div>

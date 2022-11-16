@@ -32,6 +32,10 @@ import DiscordFooter from "../../assets/img/discord-footer.png";
 import TwitterFooter from "../../assets/img/twitter-footer.png";
 import fbFooter from "../../assets/img/fb-footer.png";
 import Headerdiscord from "../../assets/img/Headerdiscord.png";
+import Menu from "../../assets/img/menu.png";
+import Close from "../../assets/img/close.png";
+import FooterLogo from "../../assets/img/FooterLogo.png";
+import Vpn from "../../assets/img/vpn.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -69,4 +73,8 @@ export {
   LocationIco,
   SmsIco,
   Headerdiscord,
+  Menu,
+  Close,
+  FooterLogo,
+  Vpn,
 };

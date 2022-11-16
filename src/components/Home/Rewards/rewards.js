@@ -55,7 +55,7 @@ const Rewards = () => {
     }
   };
   return (
-    <div className="rewards-section">
+    <div className="rewards-section" id="rewards">
       <div className="left-reward">
         <img src={LeftReward} alt="" />
       </div>
@@ -70,7 +70,7 @@ const Rewards = () => {
         with our program; and can reach up to 4%, 6% and 8% per month,
         respectively. (Ex: A Presidential membership will earn up to 8k reward
         points per month, given out quarterly...approximately 24,000 reward
-        points every quarter.
+        points every quarter.)
       </p>
       <div className="sliders">
         <div className={slide1 ? "main-slide no-border" : "main-slide"}>
