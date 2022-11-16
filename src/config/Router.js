@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import AdminDashboard from "../pages/AdminDashboard";
 
-import Home from "../pages/Home";
+import Home from "../pages/home";
 import Memberdashboard from "../pages/MemberDashboard";
 
 const Routerapp = () => {

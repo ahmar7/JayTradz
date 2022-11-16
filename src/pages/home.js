@@ -9,7 +9,7 @@ import Faq from "../components/Home/Faq/Faq";
 import Footer from "../layout/Footer/footer";
 import Navbar from "../layout/NavBar/navbar";
 
-const Home = () => {
+const Homee = () => {
   return (
     <div>
       <Navbar />
@@ -25,4 +25,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Homee;
