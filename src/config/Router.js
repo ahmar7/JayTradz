@@ -18,8 +18,8 @@ const Routerapp = () => {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/Memberdashboard" element={<Memberdashboard />} />
           <Route path="/admindashboard" element={<AdminDashboard />} />
+          <Route path="/Memberdashboard" element={<Memberdashboard />} />
         </Routes>
       </Router>
     </div>
