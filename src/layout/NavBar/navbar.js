@@ -166,7 +166,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className={class7 ? "active" : ""} href="" onClick={active7}>
+              <a
+                className={class7 ? "active" : ""}
+                href="#faq"
+                onClick={active7}
+              >
                 FAQ
                 <span className="underline"></span>
               </a>

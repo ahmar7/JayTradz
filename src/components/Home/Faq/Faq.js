@@ -11,7 +11,7 @@ import "./membership.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const Whymembership = () => {
+const Faq = () => {
   const [slide1, setSlide1] = useState(false);
   const [slide2, setSlide2] = useState(false);
   const [slide3, setSlide3] = useState(false);
@@ -89,7 +89,7 @@ const Whymembership = () => {
     ],
   };
   return (
-    <div className="rewards-section">
+    <div className="rewards-section" id="faq">
       <h1 className="section-heading">
         WHY GET A JAYTRADZ <br /> MEMBERSHIP?
       </h1>
@@ -249,4 +249,4 @@ const Whymembership = () => {
   );
 };
 
-export default Whymembership;
+export default Faq;

@@ -5,7 +5,7 @@ import Membership from "../components/Home/Membership/membership";
 import Mission from "../components/Home/Mission/mission";
 import Benefits from "../components/Home/Benefits/benefits";
 import Rewards from "../components/Home/Rewards/rewards";
-import Whymembership from "../components/Home/WhyMembership/whymembership";
+import Faq from "../components/Home/Faq/Faq";
 import Footer from "../layout/Footer/footer";
 import Navbar from "../layout/NavBar/navbar";
 
@@ -19,7 +19,7 @@ const Home = () => {
       <Membership />
       <Rewards />
       <Benefits />
-      <Whymembership />
+      <Faq />
       <Footer />
     </div>
   );
