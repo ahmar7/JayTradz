@@ -36,6 +36,10 @@ import Menu from "../../assets/img/menu.png";
 import Close from "../../assets/img/close.png";
 import FooterLogo from "../../assets/img/FooterLogo.png";
 import Vpn from "../../assets/img/vpn.png";
+import CopyIcon from "../../assets/img/Copy.png";
+import ColorHorizonatlDots from "../../assets/img/ColorHorizontalDots.png";
+import ColorVerticalDots from "../../assets/img/ColorVerticalDots.png";
+import WhitecopyIcon from "../../assets/img/Whitecopy.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -77,4 +81,8 @@ export {
   Close,
   FooterLogo,
   Vpn,
+  CopyIcon,
+  ColorHorizonatlDots,
+  ColorVerticalDots,
+  WhitecopyIcon,
 };

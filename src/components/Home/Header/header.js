@@ -21,7 +21,7 @@ const Header = () => {
             </p>
             <div className="header-discord">
               <h3>Need help with Getting Started, join...</h3>
-              <a target="_blank" href="https://discord.gg/jpvBbe7Z5J">
+              <a target="_blank" href="https://discord.gg/Rh6j6uE3qB">
                 <img src={Headerdiscord} alt="" /> DISCORD
               </a>
             </div>
