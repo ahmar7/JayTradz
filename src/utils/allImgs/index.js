@@ -40,6 +40,7 @@ import CopyIcon from "../../assets/img/Copy.png";
 import ColorHorizonatlDots from "../../assets/img/ColorHorizontalDots.png";
 import ColorVerticalDots from "../../assets/img/ColorVerticalDots.png";
 import WhitecopyIcon from "../../assets/img/Whitecopy.png";
+import ScriptIcon from "../../assets/img/Script.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
@@ -85,4 +86,5 @@ export {
   ColorHorizonatlDots,
   ColorVerticalDots,
   WhitecopyIcon,
+  ScriptIcon,
 };

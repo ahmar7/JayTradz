@@ -132,6 +132,10 @@
     color: rgba(18, 17, 39, 0.72);
 }
 
+.copyBtn img {
+    margin-right: 10px;
+}
+
 .copyBtn {
     font-family: 'Montserrat';
     font-style: normal;
