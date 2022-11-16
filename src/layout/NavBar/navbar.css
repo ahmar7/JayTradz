@@ -4,7 +4,11 @@
      align-items: center;
      height: 70px;
      padding: 0 40px;
-
+     position: fixed;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 99999;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
      background: #ffffff;
  }
 

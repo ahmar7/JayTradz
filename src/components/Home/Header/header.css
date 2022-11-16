@@ -1,3 +1,7 @@
+.header-section {
+    padding-top: 70px;
+}
+
 .header-bg {
     height: 98vh;
     background-image: url("../../../assets/img/HeaderBg.png");
