@@ -4,7 +4,12 @@ import { Close, Logo, Menu } from "../../utils/allImgs";
 import "./navbar.css";
 const Navbar = () => {
   const [sideactive, setSideactive] = useState(false);
-
+  const [class1, setClass1] = useState(true);
+  const [class2, setClass2] = useState(false);
+  const [class3, setClass3] = useState(false);
+  const [class4, setClass4] = useState(false);
+  const [class5, setClass5] = useState(false);
+  const [class6, setClass6] = useState(false);
   const toggleBar = () => {
     setSideactive(true);
   };
@@ -16,7 +21,54 @@ const Navbar = () => {
   } else {
     document.body.classList.remove("active-modal");
   }
-
+  let active1 = () => {
+    setClass1(true);
+    setClass2(false);
+    setClass3(false);
+    setClass4(false);
+    setClass5(false);
+    setClass6(false);
+  };
+  let active2 = () => {
+    setClass1(false);
+    setClass2(true);
+    setClass3(false);
+    setClass4(false);
+    setClass5(false);
+    setClass6(false);
+  };
+  let active3 = () => {
+    setClass1(false);
+    setClass2(false);
+    setClass3(true);
+    setClass4(false);
+    setClass5(false);
+    setClass6(false);
+  };
+  let active4 = () => {
+    setClass1(false);
+    setClass2(false);
+    setClass3(false);
+    setClass4(true);
+    setClass5(false);
+    setClass6(false);
+  };
+  let active5 = () => {
+    setClass1(false);
+    setClass2(false);
+    setClass3(false);
+    setClass4(false);
+    setClass5(true);
+    setClass6(false);
+  };
+  let active6 = () => {
+    setClass1(false);
+    setClass2(false);
+    setClass3(false);
+    setClass4(false);
+    setClass5(false);
+    setClass6(true);
+  };
   return (
     <div className="navbar-section">
       <div className="navbar-main">
@@ -27,46 +79,71 @@ const Navbar = () => {
           onClick={closeBar}
           className={sideactive ? " overlay " : "hide-it"}
         ></div>
-        <div className="right-bar">
+        <div className="right-bar" id="navMain">
           <ul className={sideactive ? "modalup" : "hide-it"}>
             <li className="mobile-close">
               <img onClick={closeBar} src={Close} alt="" />
             </li>
             <li>
-              <a href="#" onClick={closeBar} className="active">
+              <a href="#" onClick={active1} className={class1 ? "active" : ""}>
                 Home
-                <span class="underline"></span>
+                <span className="underline"></span>
               </a>
             </li>
             <li>
-              <a href="#program" onClick={closeBar}>
+              <a
+                className={class2 ? "active" : ""}
+                href="#program"
+                onClick={active2}
+              >
                 Our Program
-                <span class="underline"></span>
+                <span className="underline"></span>
               </a>
             </li>
             <li>
-              <a href="#mission" onClick={closeBar}>
+              <a
+                className={class3 ? "active" : ""}
+                href="#mission"
+                onClick={active3}
+              >
                 Mission
+                <span className="underline"></span>
               </a>
             </li>
             <li>
-              <a href="#membership" onClick={closeBar}>
+              <a
+                className={class4 ? "active" : ""}
+                href="#membership"
+                onClick={active4}
+              >
                 Memberships
+                <span className="underline"></span>
               </a>
             </li>
             <li>
-              <a href="#rewards" onClick={closeBar}>
+              <a
+                className={class5 ? "active" : ""}
+                href="#rewards"
+                onClick={active5}
+              >
                 Rewards
+                <span className="underline"></span>
               </a>
             </li>
             <li>
-              <a href="#benefits" onClick={closeBar}>
+              <a
+                className={class6 ? "active" : ""}
+                href="#benefits"
+                onClick={active6}
+              >
                 Benefits
+                <span className="underline"></span>
               </a>
             </li>
             <li>
-              <a href="" onClick={closeBar}>
+              <a className="nav" href="" onClick={closeBar}>
                 FAQ
+                <span className="underline"></span>
               </a>
             </li>
             <li>
@@ -75,6 +152,7 @@ const Navbar = () => {
                 onClick={closeBar}
               >
                 Brochure
+                <span className="underline"></span>
               </a>
             </li>
             <li className="sign-btn">
