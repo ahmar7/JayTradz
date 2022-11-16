@@ -10,6 +10,7 @@ const Navbar = () => {
   const [class4, setClass4] = useState(false);
   const [class5, setClass5] = useState(false);
   const [class6, setClass6] = useState(false);
+  const [class7, setClass7] = useState(false);
   const toggleBar = () => {
     setSideactive(true);
   };
@@ -26,7 +27,9 @@ const Navbar = () => {
     setClass2(false);
     setClass3(false);
     setClass4(false);
+    setClass7(false);
     setClass5(false);
+    setSideactive(false);
     setClass6(false);
   };
   let active2 = () => {
@@ -35,6 +38,8 @@ const Navbar = () => {
     setClass3(false);
     setClass4(false);
     setClass5(false);
+    setClass7(false);
+    setSideactive(false);
     setClass6(false);
   };
   let active3 = () => {
@@ -43,6 +48,8 @@ const Navbar = () => {
     setClass3(true);
     setClass4(false);
     setClass5(false);
+    setClass7(false);
+    setSideactive(false);
     setClass6(false);
   };
   let active4 = () => {
@@ -51,6 +58,8 @@ const Navbar = () => {
     setClass3(false);
     setClass4(true);
     setClass5(false);
+    setSideactive(false);
+    setClass7(false);
     setClass6(false);
   };
   let active5 = () => {
@@ -59,6 +68,8 @@ const Navbar = () => {
     setClass3(false);
     setClass4(false);
     setClass5(true);
+    setSideactive(false);
+    setClass7(false);
     setClass6(false);
   };
   let active6 = () => {
@@ -66,14 +77,28 @@ const Navbar = () => {
     setClass2(false);
     setClass3(false);
     setClass4(false);
+    setSideactive(false);
     setClass5(false);
     setClass6(true);
+    setClass7(false);
+  };
+  let active7 = () => {
+    setSideactive(false);
+    setClass1(false);
+    setClass2(false);
+    setClass3(false);
+    setClass4(false);
+    setClass5(false);
+    setClass6(false);
+    setClass7(true);
   };
   return (
     <div className="navbar-section">
       <div className="navbar-main">
         <div className="left-bar">
-          <img src={Logo} alt="" />
+          <Link to="/">
+            <img src={Logo} alt="" />
+          </Link>
         </div>
         <div
           onClick={closeBar}
@@ -141,7 +166,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="nav" href="" onClick={closeBar}>
+              <a className={class7 ? "active" : ""} href="" onClick={active7}>
                 FAQ
                 <span className="underline"></span>
               </a>
@@ -156,7 +181,9 @@ const Navbar = () => {
               </a>
             </li>
             <li className="sign-btn">
-              <button>Sign in</button>
+              <Link to="/Memberdashboard">
+                <button>Sign in</button>
+              </Link>
             </li>
           </ul>
           <div className="mobile-bar">
