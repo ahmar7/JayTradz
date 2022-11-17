@@ -6,7 +6,7 @@
 .membershipBg {
     background-image: url(../../../assets/img/DashboardHeader.png);
 
-    height: 95vh;
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@
 .left-overlay {
     background-image: url(../../../assets/img/LeftOverlay.png);
 
-    height: 95vh;
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +24,7 @@
 .right-overlay {
     background-image: url(../../../assets/img/RightOverlay.png);
 
-    height: 95vh;
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,4 +41,10 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+@media (max-width:600px) {
+    .header-tag {
+        font-size: 22px;
+    }
 }

@@ -22,7 +22,7 @@ const Discbursement = () => {
       </div>
 
       <p className="disc-para">
-        discbursements for this <br /> period
+        DISBURSEMENTS FOR THIS <br /> PERIOD
       </p>
 
       <div className="point-boxes disc-bx">
