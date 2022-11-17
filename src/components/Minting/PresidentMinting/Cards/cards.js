@@ -108,7 +108,7 @@ const Cards = () => {
                 <div className="total-ps">$50,000 USDT</div>
               </div>
               <div className="total-price ">
-                <div className="total-name">** USDT (ERC-20) </div>
+                <div className="total-name">** USDT (ERC-20)</div>
               </div>
             </div>
           </div>
