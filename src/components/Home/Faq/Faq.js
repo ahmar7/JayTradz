@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {
   Affiliate,
   ArrowDown,
+  FooterLogo,
   LeftPiece,
   Logo,
   RightPiece,
@@ -227,21 +228,21 @@ const Faq = () => {
           <div>
             <div className="affiliation-slider">
               <a href="https://vegaslucknft.com/15612250" target="_blank">
-                <img className="affiliate-img" src={Logo} alt="" />
+                <img className="affiliate-img" src={FooterLogo} alt="" />
               </a>
             </div>
           </div>
           <div>
             <div className="affiliation-slider">
               <a href="https://vegaslucknft.com/15612250" target="_blank">
-                <img className="affiliate-img" src={Logo} alt="" />
+                <img className="affiliate-img" src={FooterLogo} alt="" />
               </a>
             </div>
           </div>
           <div>
             <div className="affiliation-slider">
               <a href="https://vegaslucknft.com/15612250" target="_blank">
-                <img className="affiliate-img" src={Logo} alt="" />
+                <img className="affiliate-img" src={FooterLogo} alt="" />
               </a>
             </div>
           </div>

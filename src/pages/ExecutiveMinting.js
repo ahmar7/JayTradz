@@ -1,4 +1,5 @@
 import React from "react";
+import Top from "../components/Gotop/top";
 import Cards from "../components/Minting/ExecutiveMinting/Cards/cards";
 import Details from "../components/Minting/ExecutiveMinting/Details/details";
 
@@ -8,6 +9,8 @@ import Navbar from "../layout/NavBar/navbar";
 const ExecutiveMinting = () => {
   return (
     <div>
+      <Top />
+
       <Navbar />
       <Cards />
       <Details />

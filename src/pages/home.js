@@ -8,10 +8,13 @@ import Rewards from "../components/Home/Rewards/rewards";
 import Faq from "../components/Home/Faq/Faq";
 import Footer from "../layout/Footer/footer";
 import Navbar from "../layout/NavBar/navbar";
+import Top from "../components/Gotop/top";
 
 const Homee = () => {
   return (
     <div>
+      <Top />
+
       <Navbar />
       <Header />
       <Details />
