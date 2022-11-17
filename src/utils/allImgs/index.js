@@ -42,9 +42,67 @@ import ColorVerticalDots from "../../assets/img/ColorVerticalDots.png";
 import WhitecopyIcon from "../../assets/img/Whitecopy.png";
 import ScriptIcon from "../../assets/img/Script.png";
 import bell from "../../assets/img/Bell.png";
+import StarFill from "../../assets/img/StarFill.png";
+import StarEmpty from "../../assets/img/StarEmpty.png";
+import StarHalf from "../../assets/img/StarHalf.png";
+import YearlyIntern from "../../assets/img/intern/yearly.png";
+import MonthlyIntern from "../../assets/img/intern/monthly.png";
+import QuarterlyIntern from "../../assets/img/intern/quarterly.png";
+import DiscBtn from "../../assets/img/DiscIcon.png";
+import Yearlyassociate from "../../assets/img/associate/Yearly.png";
+import Monthlyassociate from "../../assets/img/associate/Monthly.png";
+import Quarterlyassociate from "../../assets/img/associate/Quarterly.png";
+import Associate from "../../assets/img/associate/Associate.png";
+
+import Yearlychairman from "../../assets/img/chairman/Yearly.png";
+import Monthlychairman from "../../assets/img/chairman/Monthly.png";
+import Quarterlychairman from "../../assets/img/chairman/Quarterly.png";
+import Chairman from "../../assets/img/chairman/Chairman.png";
+
+import Yearlycorporate from "../../assets/img/corporate/Yearly.png";
+import Monthlycorporate from "../../assets/img/corporate/Monthly.png";
+import Quarterlycorporate from "../../assets/img/corporate/Quarterly.png";
+import Corporate from "../../assets/img/corporate/Corporate.png";
+
+import Yearlyexecutive from "../../assets/img/executive/Yearly.png";
+import Monthlyexecutive from "../../assets/img/executive/Monthly.png";
+import Quarterlyexecutive from "../../assets/img/executive/Quarterly.png";
+import Executive from "../../assets/img/executive/Executive.png";
+
+import Yearlypresident from "../../assets/img/president/Yearly.png";
+import Monthlypresident from "../../assets/img/president/Monthly.png";
+import Quarterlypresident from "../../assets/img/president/Quarterly.png";
+import President from "../../assets/img/president/President.png";
 
 ///////////////////////////////////////////////////// Collection Images
 export {
+  Yearlyassociate,
+  Yearlycorporate,
+  Monthlycorporate,
+  Quarterlycorporate,
+  Corporate,
+  Yearlyexecutive,
+  Monthlyexecutive,
+  Quarterlyexecutive,
+  Executive,
+  Yearlypresident,
+  Monthlypresident,
+  Quarterlypresident,
+  President,
+  Monthlyassociate,
+  Quarterlyassociate,
+  Associate,
+  Yearlychairman,
+  Monthlychairman,
+  Quarterlychairman,
+  Chairman,
+  YearlyIntern,
+  DiscBtn,
+  MonthlyIntern,
+  QuarterlyIntern,
+  StarFill,
+  StarEmpty,
+  StarHalf,
   DiscordFooter,
   Logo,
   RightPolly,

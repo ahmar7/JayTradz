@@ -1,4 +1,5 @@
 import React from "react";
+import Activemembership from "../components/Admindashboard/Activemembership/activemembership";
 import Header from "../components/Memberdashboard/Header/header";
 import RedeemPoints from "../components/Memberdashboard/RedeemPoints/redeemPoints";
 import Rewardspoint from "../components/Memberdashboard/RewardsPoint/rewardspoint";
@@ -14,6 +15,7 @@ const MemberDashboard = () => {
       <Rewardspoint />
       <RedeemPoints />
       <Transactionhistory />
+      <Activemembership />
       <Footer />
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Rectangle1,
   Rectangle2,
@@ -34,7 +35,9 @@ const Program = () => {
               </div>
             </div>
             <div className="membership-btn">
-              <button>More Info</button>
+              <Link to="/internminting">
+                <button>More Info</button>
+              </Link>
             </div>
           </div>
           <div className="indiv-membership">
@@ -49,7 +52,9 @@ const Program = () => {
               </div>
             </div>
             <div className="membership-btn">
-              <button>More Info</button>
+              <Link to="/associateminting">
+                <button>More Info</button>
+              </Link>
             </div>
           </div>
           <div className="indiv-membership">
@@ -64,7 +69,9 @@ const Program = () => {
               </div>
             </div>
             <div className="membership-btn">
-              <button>More Info</button>
+              <Link to="/executiveminting">
+                <button>More Info</button>
+              </Link>
             </div>
           </div>
           <div className="indiv-membership">
@@ -79,7 +86,9 @@ const Program = () => {
               </div>
             </div>
             <div className="membership-btn">
-              <button>More Info</button>
+              <Link to="/presidentminting">
+                <button>More Info</button>
+              </Link>
             </div>
           </div>
           <div className="indiv-membership">
@@ -94,7 +103,9 @@ const Program = () => {
               </div>
             </div>
             <div className="membership-btn">
-              <button>More Info</button>
+              <Link to="/chairmanminting">
+                <button>More Info</button>
+              </Link>
             </div>
           </div>
           <div className="indiv-membership">
@@ -109,7 +120,9 @@ const Program = () => {
               </div>
             </div>
             <div className="membership-btn">
-              <button>More Info</button>
+              <Link to="/corporateminting">
+                <button>More Info</button>
+              </Link>
             </div>
           </div>
         </div>

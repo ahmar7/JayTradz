@@ -3,6 +3,7 @@ import {
   Affiliate,
   ArrowDown,
   LeftPiece,
+  Logo,
   RightPiece,
   TickSquare,
   Vpn,
@@ -226,14 +227,28 @@ const Faq = () => {
           <div>
             <div className="affiliation-slider">
               <a href="https://vegaslucknft.com/15612250" target="_blank">
-                <img className="affiliate-img" src={Affiliate} alt="" />
+                <img className="affiliate-img" src={Logo} alt="" />
               </a>
             </div>
           </div>
           <div>
             <div className="affiliation-slider">
               <a href="https://vegaslucknft.com/15612250" target="_blank">
-                <img className="affiliate-img" src={Affiliate} alt="" />
+                <img className="affiliate-img" src={Logo} alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="affiliation-slider">
+              <a href="https://vegaslucknft.com/15612250" target="_blank">
+                <img className="affiliate-img" src={Logo} alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="affiliation-slider">
+              <a href="https://vegaslucknft.com/15612250" target="_blank">
+                <img className="affiliate-img" src={Logo} alt="" />
               </a>
             </div>
           </div>
