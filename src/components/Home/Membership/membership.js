@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
+  AssociateVideo,
+  ChairmanVideo,
+  CorporateVideo,
+  ExecutiveVideo,
+  InternVideo,
+  PresidentalVideo,
   Rectangle1,
   Rectangle2,
   Rectangle3,
@@ -25,7 +31,8 @@ const Program = () => {
         <div className="membership-cards">
           <div className="indiv-membership">
             <div className="membership-img">
-              <img className="rectangle" src={Rectangle1} alt="" />
+              <video autoPlay muted loop src={InternVideo}></video>
+              {/* <img className="rectangle" src={Rectangle1} alt="" /> */}
             </div>
             <div className="membership-name">
               <h3>Intern</h3>
@@ -42,7 +49,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <img className="rectangle" src={Rectangle2} alt="" />
+              <video autoPlay muted loop src={AssociateVideo}></video>
             </div>
             <div className="membership-name">
               <h3>Associate</h3>
@@ -59,7 +66,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <img className="rectangle" src={Rectangle3} alt="" />
+              <video autoPlay muted loop src={ExecutiveVideo}></video>
             </div>
             <div className="membership-name">
               <h3>Executive</h3>
@@ -76,7 +83,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <img className="rectangle" src={Rectangle4} alt="" />
+              <video autoPlay muted loop src={PresidentalVideo}></video>
             </div>
             <div className="membership-name">
               <h3>Presidential</h3>
@@ -93,7 +100,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <img className="rectangle" src={Rectangle5} alt="" />
+              <video autoPlay muted loop src={ChairmanVideo}></video>
             </div>
             <div className="membership-name">
               <h3>Chairman</h3>
@@ -110,7 +117,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <img className="rectangle" src={Rectangle6} alt="" />
+              <video autoPlay muted loop src={CorporateVideo}></video>
             </div>
             <div className="membership-name">
               <h3>Corporate</h3>

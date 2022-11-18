@@ -101,6 +101,10 @@
     border-radius: 6px;
 }
 
+.membership-img video {
+    width: 100%;
+}
+
 @media (max-width:1110px) {
     .membership-cards {
         display: flex;

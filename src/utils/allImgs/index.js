@@ -73,9 +73,21 @@ import Yearlypresident from "../../assets/img/president/Yearly.png";
 import Monthlypresident from "../../assets/img/president/Monthly.png";
 import Quarterlypresident from "../../assets/img/president/Quarterly.png";
 import President from "../../assets/img/president/President.png";
-
+// Video Animations
+import InternVideo from "../../assets/video/Intern-Monthly-Slim.mp4";
+import AssociateVideo from "../../assets/video/Associate-Monthly-Slim.mp4";
+import ExecutiveVideo from "../../assets/video/Executive-Monthly-Slim.mp4";
+import ChairmanVideo from "../../assets/video/Chairman-Monthly-Slim.mp4";
+import CorporateVideo from "../../assets/video/Corporate-Monthly-Slim.mp4";
+import PresidentalVideo from "../../assets/video/Presidential-Monthly-Slim.mp4";
 ///////////////////////////////////////////////////// Collection Images
 export {
+  InternVideo,
+  AssociateVideo,
+  ExecutiveVideo,
+  ChairmanVideo,
+  CorporateVideo,
+  PresidentalVideo,
   Yearlyassociate,
   Yearlycorporate,
   Monthlycorporate,
