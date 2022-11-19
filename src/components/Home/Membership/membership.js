@@ -31,7 +31,7 @@ const Program = () => {
         <div className="membership-cards">
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop src={InternVideo}></video>
+              <video autoPlay muted loop playsInline src={InternVideo}></video>
               {/* <img className="rectangle" src={Rectangle1} alt="" /> */}
             </div>
             <div className="membership-name">
@@ -49,7 +49,13 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop src={AssociateVideo}></video>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                src={AssociateVideo}
+              ></video>
             </div>
             <div className="membership-name">
               <h3>Associate</h3>
@@ -66,7 +72,13 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop src={ExecutiveVideo}></video>
+              <video
+                autoPlay
+                muted
+                playsInline
+                loop
+                src={ExecutiveVideo}
+              ></video>
             </div>
             <div className="membership-name">
               <h3>Executive</h3>
@@ -83,7 +95,13 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop src={PresidentalVideo}></video>
+              <video
+                autoPlay
+                muted
+                playsInline
+                loop
+                src={PresidentalVideo}
+              ></video>
             </div>
             <div className="membership-name">
               <h3>Presidential</h3>
@@ -100,7 +118,13 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop src={ChairmanVideo}></video>
+              <video
+                autoPlay
+                muted
+                playsInline
+                loop
+                src={ChairmanVideo}
+              ></video>
             </div>
             <div className="membership-name">
               <h3>Chairman</h3>
@@ -117,7 +141,13 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop src={CorporateVideo}></video>
+              <video
+                autoPlay
+                muted
+                playsInline
+                loop
+                src={CorporateVideo}
+              ></video>
             </div>
             <div className="membership-name">
               <h3>Corporate</h3>

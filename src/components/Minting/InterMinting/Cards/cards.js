@@ -24,7 +24,7 @@ const Cards = () => {
       <div className="plan-cards">
         <div className="single-plan">
           <div className="upper-block">
-            <video autoPlay muted loop src={InternVideo}></video>
+            <video playsInline autoPlay muted loop src={InternVideo}></video>
 
             <h2>Intern Monthly </h2>
           </div>
@@ -56,7 +56,13 @@ const Cards = () => {
         </div>
         <div className="single-plan">
           <div className="upper-block">
-            <video autoPlay muted loop src={QuarterlyIntern}></video>
+            <video
+              playsInline
+              autoPlay
+              muted
+              loop
+              src={QuarterlyIntern}
+            ></video>
 
             <h2>Intern Quarterly </h2>
           </div>
@@ -88,7 +94,7 @@ const Cards = () => {
         </div>
         <div className="single-plan">
           <div className="upper-block">
-            <video autoPlay muted loop src={YearlyIntern}></video>
+            <video playsInline autoPlay muted loop src={YearlyIntern}></video>
 
             <h2>Intern Semi-Yearly</h2>
           </div>
