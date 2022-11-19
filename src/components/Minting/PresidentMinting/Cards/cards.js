@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Monthlypresident,
+  PresidentalVideo,
   Quarterlypresident,
   StarEmpty,
   StarFill,
@@ -22,7 +22,8 @@ const Cards = () => {
       <div className="plan-cards">
         <div className="single-plan">
           <div className="upper-block">
-            <img src={Monthlypresident} alt="" />
+            <video autoPlay muted loop src={PresidentalVideo}></video>
+
             <h2>President Monthly </h2>
           </div>
           <div className="lower-block">
@@ -53,7 +54,8 @@ const Cards = () => {
         </div>
         <div className="single-plan">
           <div className="upper-block">
-            <img src={Quarterlypresident} alt="" />
+            <video autoPlay muted loop src={Quarterlypresident}></video>
+
             <h2>President Quarterly </h2>
           </div>
           <div className="lower-block">
@@ -84,7 +86,8 @@ const Cards = () => {
         </div>
         <div className="single-plan">
           <div className="upper-block">
-            <img src={Yearlypresident} alt="" />
+            <video autoPlay muted loop src={Yearlypresident}></video>
+
             <h2>President Semi-Yearly</h2>
           </div>
           <div className="lower-block">

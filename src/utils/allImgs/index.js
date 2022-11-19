@@ -45,43 +45,43 @@ import bell from "../../assets/img/Bell.png";
 import StarFill from "../../assets/img/StarFill.png";
 import StarEmpty from "../../assets/img/StarEmpty.png";
 import StarHalf from "../../assets/img/StarHalf.png";
-import YearlyIntern from "../../assets/img/intern/yearly.png";
-import MonthlyIntern from "../../assets/img/intern/monthly.png";
-import QuarterlyIntern from "../../assets/img/intern/quarterly.png";
+
+import YearlyIntern from "../../assets/video/intern/Intern-Semi-Slim.mp4";
+import QuarterlyIntern from "../../assets/video/intern/Intern-Qu-Slim.mp4";
 import DiscBtn from "../../assets/img/DiscIcon.png";
-import Yearlyassociate from "../../assets/img/associate/Yearly.png";
-import Monthlyassociate from "../../assets/img/associate/Monthly.png";
-import Quarterlyassociate from "../../assets/img/associate/Quarterly.png";
-import Associate from "../../assets/img/associate/Associate.png";
+import Yearlyassociate from "../../assets/video/associate/Associate-Semi-SLim.mp4";
+import Quarterlyassociate from "../../assets/video/associate/Associate-Qu-Slim.mp4";
+import Associate from "../../assets/video/associate/Associate.png";
 
-import Yearlychairman from "../../assets/img/chairman/Yearly.png";
-import Monthlychairman from "../../assets/img/chairman/Monthly.png";
-import Quarterlychairman from "../../assets/img/chairman/Quarterly.png";
-import Chairman from "../../assets/img/chairman/Chairman.png";
+import Yearlychairman from "../../assets/video/chairman/Chairman-Semi-Slim.mp4";
+import Quarterlychairman from "../../assets/video/chairman/Chairman-Qu-SLim.mp4";
+import Chairman from "../../assets/video/chairman/Chairman.png";
 
-import Yearlycorporate from "../../assets/img/corporate/Yearly.png";
-import Monthlycorporate from "../../assets/img/corporate/Monthly.png";
-import Quarterlycorporate from "../../assets/img/corporate/Quarterly.png";
-import Corporate from "../../assets/img/corporate/Corporate.png";
+import Yearlycorporate from "../../assets/video/corporate/Corporate-Semi-Slim.mp4";
+import Quarterlycorporate from "../../assets/video/corporate/Corporate-Qu-Slim.mp4";
+import Corporate from "../../assets/video/corporate/Corporate.png";
 
-import Yearlyexecutive from "../../assets/img/executive/Yearly.png";
-import Monthlyexecutive from "../../assets/img/executive/Monthly.png";
-import Quarterlyexecutive from "../../assets/img/executive/Quarterly.png";
-import Executive from "../../assets/img/executive/Executive.png";
+import Yearlyexecutive from "../../assets/video/executive/Executive-Semi-Slim.mp4";
+import Quarterlyexecutive from "../../assets/video/executive/Executive-Qu-Slim.mp4";
+import Executive from "../../assets/video/executive/Executive.png";
 
-import Yearlypresident from "../../assets/img/president/Yearly.png";
-import Monthlypresident from "../../assets/img/president/Monthly.png";
-import Quarterlypresident from "../../assets/img/president/Quarterly.png";
-import President from "../../assets/img/president/President.png";
+import Yearlypresident from "../../assets/video/president/Presidential-Semi-Slim.mp4";
+import Quarterlypresident from "../../assets/video/president/Presidential-Qu-Slim.mp4";
+import President from "../../assets/video/president/President.png";
 // Video Animations
-import InternVideo from "../../assets/video/Intern-Monthly-Slim.mp4";
-import AssociateVideo from "../../assets/video/Associate-Monthly-Slim.mp4";
-import ExecutiveVideo from "../../assets/video/Executive-Monthly-Slim.mp4";
-import ChairmanVideo from "../../assets/video/Chairman-Monthly-Slim.mp4";
-import CorporateVideo from "../../assets/video/Corporate-Monthly-Slim.mp4";
-import PresidentalVideo from "../../assets/video/Presidential-Monthly-Slim.mp4";
+import InternVideo from "../../assets/video/intern/Intern-Monthly-Slim.mp4";
+import AssociateVideo from "../../assets/video/associate/Associate-Monthly-Slim.mp4";
+import ExecutiveVideo from "../../assets/video/executive/Executive-Monthly-Slim.mp4";
+import ChairmanVideo from "../../assets/video/chairman/Chairman-Monthly-Slim.mp4";
+import CorporateVideo from "../../assets/video/corporate/Corporate-Monthly-Slim.mp4";
+import PresidentalVideo from "../../assets/video/president/Presidential-Monthly-Slim.mp4";
 ///////////////////////////////////////////////////// Collection Images
 export {
+  Chairman,
+  Corporate,
+  Executive,
+  President,
+  Associate,
   InternVideo,
   AssociateVideo,
   ExecutiveVideo,
@@ -90,27 +90,16 @@ export {
   PresidentalVideo,
   Yearlyassociate,
   Yearlycorporate,
-  Monthlycorporate,
   Quarterlycorporate,
-  Corporate,
   Yearlyexecutive,
-  Monthlyexecutive,
   Quarterlyexecutive,
-  Executive,
   Yearlypresident,
-  Monthlypresident,
   Quarterlypresident,
-  President,
-  Monthlyassociate,
   Quarterlyassociate,
-  Associate,
   Yearlychairman,
-  Monthlychairman,
   Quarterlychairman,
-  Chairman,
   YearlyIntern,
   DiscBtn,
-  MonthlyIntern,
   QuarterlyIntern,
   StarFill,
   StarEmpty,
