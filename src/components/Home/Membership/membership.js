@@ -1,18 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  AssociateVideo,
-  ChairmanVideo,
-  CorporateVideo,
-  ExecutiveVideo,
-  InternVideo,
-  PresidentalVideo,
-  Rectangle1,
-  Rectangle2,
-  Rectangle3,
-  Rectangle4,
-  Rectangle5,
-  Rectangle6,
+  Monthlyassociate,
+  Monthlychairman,
+  Monthlycorporate,
+  Monthlyexecutive,
+  MonthlyIntern,
+  Monthlypresident,
   Star,
 } from "../../../utils/allImgs";
 import "./membership.css";
@@ -31,8 +25,7 @@ const Program = () => {
         <div className="membership-cards">
           <div className="indiv-membership">
             <div className="membership-img">
-              <video autoPlay muted loop playsInline src={InternVideo}></video>
-              {/* <img className="rectangle" src={Rectangle1} alt="" /> */}
+              <img className="rectangle" src={MonthlyIntern} alt="" />
             </div>
             <div className="membership-name">
               <h3>Intern</h3>
@@ -49,13 +42,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                src={AssociateVideo}
-              ></video>
+              <img className="rectangle" src={Monthlyassociate} alt="" />
             </div>
             <div className="membership-name">
               <h3>Associate</h3>
@@ -72,13 +59,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video
-                autoPlay
-                muted
-                playsInline
-                loop
-                src={ExecutiveVideo}
-              ></video>
+              <img className="rectangle" src={Monthlyexecutive} alt="" />
             </div>
             <div className="membership-name">
               <h3>Executive</h3>
@@ -95,13 +76,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video
-                autoPlay
-                muted
-                playsInline
-                loop
-                src={PresidentalVideo}
-              ></video>
+              <img className="rectangle" src={Monthlypresident} alt="" />
             </div>
             <div className="membership-name">
               <h3>Presidential</h3>
@@ -118,13 +93,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video
-                autoPlay
-                muted
-                playsInline
-                loop
-                src={ChairmanVideo}
-              ></video>
+              <img className="rectangle" src={Monthlychairman} alt="" />
             </div>
             <div className="membership-name">
               <h3>Chairman</h3>
@@ -141,13 +110,7 @@ const Program = () => {
           </div>
           <div className="indiv-membership">
             <div className="membership-img">
-              <video
-                autoPlay
-                muted
-                playsInline
-                loop
-                src={CorporateVideo}
-              ></video>
+              <img className="rectangle" src={Monthlycorporate} alt="" />
             </div>
             <div className="membership-name">
               <h3>Corporate</h3>
