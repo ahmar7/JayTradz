@@ -69,7 +69,7 @@ import Corporate from "../../assets/img/corporate/Corporate.png";
 
 import Yearlyexecutive from "../../assets/img/executive/Executive-Semi.gif";
 import Monthlyexecutive from "../../assets/img/executive/Executive-Monthly.gif";
-import Quarterlyexecutive from "../../assets/img/executive/Quarterly.png";
+import Quarterlyexecutive from "../../assets/img/executive/Executive-Monthly.gif";
 import Executive from "../../assets/img/executive/Executive.png";
 
 import Yearlypresident from "../../assets/img/president/President-Semi.gif";
